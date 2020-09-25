@@ -41,25 +41,6 @@ async def 筋肉マン(ctx):
 async def 香水(ctx):
     await ctx.send('この道具は現在使えません。')
     
-#coding:UTF-8
-import discord
-from discord.ext import tasks
-
-TOKEN = "NzU3MTk1NTA1ODg0MjAwOTgy.X2c3RA.HFB2h5hyuSmnwuVdzNXUJCMFMAM" #トークン
-CHANNEL_ID = 750635752450293793 #チャンネルID
-# 接続に必要なオブジェクトを生成
-client = discord.Client()
-
-# 60秒に一回ループ
-@tasks.loop(seconds=60)
-async def loop():
-    channel = client.get_channel(CHANNEL_ID)
-    await channel.send('時間だよ')
-
-#ループ処理実行
-loop.start()
-# Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
 
     
 bot.run(token)
