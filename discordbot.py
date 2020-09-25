@@ -10,14 +10,6 @@ async def on_command_error(ctx, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
-
-@bot.command()
-async def ぴえん(ctx):
-    await ctx.send('ぱおん')
-    
-@bot.command()
-async def Hey guys(ctx):
-    await ctx.send('We have a gift for you')
     
 @bot.command()
 async def 地雷(ctx):
