@@ -18,6 +18,10 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
+async def ぴえん(ctx):
+    await ctx.send('ぱおん')
+    
+@bot.command()
 async def Hey guys(ctx):
     await ctx.send('We have a gift for you')
     
