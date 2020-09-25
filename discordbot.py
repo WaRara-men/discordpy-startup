@@ -18,8 +18,8 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def neko(ctx):
-    await ctx.send('にゃーん')
+async def 運営(ctx):
+    await ctx.send('あほ')
     
 @bot.command()
 async def WaRa(ctx):
