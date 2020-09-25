@@ -18,6 +18,10 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
+async def 地雷(ctx):
+    await ctx.send('自己紹介❓')
+    
+@bot.command()
 async def 運営(ctx):
     await ctx.send('あほ')
     
