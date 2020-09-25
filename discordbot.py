@@ -36,5 +36,9 @@ async def しなめす(ctx):
 @bot.command()
 async def 筋肉マン(ctx):
     await ctx.send('令和であります。')
+
+@bot.command()
+async def 香水(ctx):
+    await ctx.send('この道具は現在使えません')
     
 bot.run(token)
