@@ -38,5 +38,5 @@ async def 筋肉マン(ctx):
 @bot.command()
 async def 香水(ctx):
     await ctx.send('この道具は現在使えません。')
-    
+
 bot.run(token)
