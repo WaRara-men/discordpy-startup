@@ -12,31 +12,27 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
     
 @bot.command()
-async def 地雷(ctx):
-    await ctx.send('自己紹介❓')
-    
-@bot.command()
-async def 運営(ctx):
-    await ctx.send('あほ')
+async def 11月1日(ctx):
+    await ctx.send('カミナさん誕生日おめでとう^-^')
     
 @bot.command()
 async def WaRa(ctx):
-    await ctx.send('即死')
+    await ctx.send('＃透明床の音ォ～')
     
 @bot.command()
-async def ソルセルト(ctx):
-    await ctx.send('tintin')
+async def 裏世界なう(ctx):
+    await ctx.send('どこのmap?')
     
 @bot.command()
-async def しなめす(ctx):
-    await ctx.send('その香水のせいだよ～♪')
-    
-@bot.command()
-async def 筋肉マン(ctx):
-    await ctx.send('令和であります。')
+async def 裏世界行く人(ctx):
+    await ctx.send('ノ')
 
 @bot.command()
-async def 香水(ctx):
-    await ctx.send('この道具は現在使えません。')
+async def カミナさん(ctx):
+    await ctx.send('いつもありがと～♪~♪ d(⌒o⌒)b♪~♪')
+    
+@bot.command()
+async def お疲れ様でした(ctx):
+    await ctx.send('また参加してね(*￣▽￣)ﾉ~~')
 
 bot.run(token)
