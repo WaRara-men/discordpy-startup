@@ -31,9 +31,9 @@ async def 裏世界行く人(ctx):
 async def カミナさん(ctx):
     await ctx.send('いつもありがと～♪~♪ d(⌒o⌒)b♪~♪')
     
-    
 @bot.command()
 async def お疲れ様でした(ctx):
     await ctx.send('また参加してね(*￣▽￣)ﾉ~~')
 
+    
 bot.run(token)
